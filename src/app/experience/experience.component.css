@@ -1,0 +1,54 @@
+.accordion .accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .accordion .accordion-button:not(.collapsed) {
+    background-color: #e9ecef;
+    color: #000;
+  }
+  
+  .accordion .accordion-body {
+    background-color: #ffffff;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .accordion-item {
+    border: none;
+    margin-bottom: 8px;
+  }
+  
+  h5 {
+    font-size: 1.2rem;
+    color: #495057;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  .accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-button .flex-grow-1 {
+    text-align: left; /* Ensures text stays left-aligned */
+  }
+  
+  .accordion-button .text-muted {
+    font-size: 0.9rem;
+    color: #6c757d; /* Subdued gray tone */
+    white-space: nowrap; /* Prevents wrapping of the duration text */
+  }
+  
