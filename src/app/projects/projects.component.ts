@@ -57,7 +57,7 @@ export class ProjectsComponent {
       title: 'Personal Portfolio Website',
       description: 'Designed and developed a responsive portfolio using Angular.',
       image: 'path/to/image.jpg',
-      repoLink: 'https://your-portfolio.com',
+      repoLink: 'https://github.com/sharma-isha/portfolio.git',
       features: [
         'Showcases professional experience and personal projects.',
         'Integrated animations for a visually appealing UI.'
