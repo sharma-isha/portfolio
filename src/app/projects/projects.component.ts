@@ -47,8 +47,26 @@ export class ProjectsComponent {
       features: [
         'Achieved 60% reduction in API response times and optimized Queue calls for improved performance.'
       ]
+    },
+    {
+      title: 'GSC Partner',
+      shortDescription: 'A module that enables Ordering Journey for Sell-With and Sell-Through Partners.',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Delivered the module in tight timelines leading to a 8% increase in revenue of GSC product.'
+      ]
+    },
+    {
+      title: 'PO Mandatory',
+      shortDescription: 'A module enabled for all GlobalRapide Products which allows for Purchase Order(PO) based Workflow Customization.',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Led a team of 4 developers in tight timelines for successful delivery.',
+        'Mandated Robust Testing which identified and resolved Potential Production issues.'
+      ]
     }
-
   ];
   
   personalProjects = [
