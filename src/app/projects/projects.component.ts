@@ -66,6 +66,16 @@ export class ProjectsComponent {
         'Led a team of 4 developers in tight timelines for successful delivery.',
         'Mandated Robust Testing which identified and resolved Potential Production issues.'
       ]
+    },
+    {
+      title: 'IZOMCC 2.0',
+      shortDescription: 'A Modular Approach for the L2C journey of Izo Multi Cloud Connect and Direct Usecases and Components.',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Led a team of 6 developers in aggressive production release timelines.',
+        'Leveraged GenAI tools to accelerate sprint velocity by 25%.'
+      ]
     }
   ];
   

@@ -13,8 +13,19 @@ export class ExperienceComponent {
   experiences = [
     {
       company: 'Tata Communications',
+      role: 'Tech Lead',
+      duration: "Mar'25 - Present",
+      responsibilities: [
+        'Led a newly formed backend team post-transition, aligning quickly on goals and architecture to drive delivery of a high-impact digital product.',
+        'Delivered a scalable, production-grade solution under aggressive timelines.',
+        'Accelerated sprint velocity by 25% by integrating GenAI solutions into development workflows, optimizing code generation, testing, and documentation.'
+      ],
+      technologies: ['Java','SpringBoot', 'Spring Security', 'Keycloak', 'Thymeleaf', 'Spring JPA', 'RabbitMQ', 'Redis','Jenkins','Co-Pilot']
+    },
+    {
+      company: 'Tata Communications',
       role: 'Senior Software Engineer',
-      duration: "Jul'23 - Present",
+      duration: "Jul'23 - Mar'25",
       responsibilities: [
         'Led the O2C team for the GlobalRapide product, contributing to 10+ successful deployments with cross-functional teams.',
         'Stepped in as a critical resource for a new project GSC Partner, delivering it ahead of schedule.',
