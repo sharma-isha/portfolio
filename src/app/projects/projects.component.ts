@@ -11,51 +11,15 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent {
   professionalProjects = [
     {
-      title: 'TeamsDR',
-      shortDescription: 'A Module for the L2C journey for TeamsDR Solution',
+      title: 'IZOMCC 2.0',
+      shortDescription: 'A Modular Approach for the L2C journey of Izo Multi Cloud Connect and Direct Usecases and Components.',
       image: 'path/to/image.jpg',
       link: 'https://github.com/your-repo',
       features: [
-        'Implemented Bundled Voice solutions using Drools, RestClient.',
-        'Utilized Flowable an XML-based bpmn tool for predefining O2C flows.'
-      ]
-    },
-    {
-      title: 'Webex Calling',
-      shortDescription: 'A module for Order Management of Webex Calling solution.',
-      image: 'path/to/image.jpg',
-      link: 'https://github.com/your-repo',
-      features: [
-        'Incorporated Order Management of Voice Services, Licenses, and Equipment.',
-        'Integrated Inventory Management for existing orders, leading to 4% increase in orders.'
-      ]
-    },
-    {
-      title: 'JAMVEE',
-      shortDescription: 'A module for the Order Placement, Management, and Delivery of JAMVEE products.',
-      image: 'path/to/image.jpg',
-      link: 'https://github.com/your-repo',
-      features: [
-        'Developed Plan MACD feature from Scratch leading to 6% increase in sales.'
-      ]
-    },
-    {
-      title: 'GLOBALRAPIDE',
-      shortDescription: 'A module that allows bundling of GlobalRapide products and Addons, like Endpoints, SBC, Licenses and Services.',
-      image: 'path/to/image.jpg',
-      link: 'https://github.com/your-repo',
-      features: [
-        'Achieved 60% reduction in API response times and optimized Queue calls for improved performance.'
-      ]
-    },
-    {
-      title: 'GSC Partner',
-      shortDescription: 'A module that enables Ordering Journey for Sell-With and Sell-Through Partners.',
-      image: 'path/to/image.jpg',
-      link: 'https://github.com/your-repo',
-      features: [
-        'Delivered the module in tight timelines leading to a 8% increase in revenue of GSC product.'
-      ]
+        'Led a team of 7+ Agile teams (10+ developers) in aggressive production release timelines.',
+        'Leveraged GenAI tools to accelerate sprint velocity by 25%.'
+      ],
+      timeLine:"Mar'25-Present"
     },
     {
       title: 'PO Mandatory',
@@ -65,17 +29,60 @@ export class ProjectsComponent {
       features: [
         'Led a team of 4 developers in tight timelines for successful delivery.',
         'Mandated Robust Testing which identified and resolved Potential Production issues.'
-      ]
+      ],
+      timeLine:"Dec'24-Mar'25"
     },
     {
-      title: 'IZOMCC 2.0',
-      shortDescription: 'A Modular Approach for the L2C journey of Izo Multi Cloud Connect and Direct Usecases and Components.',
+      title: 'GSC Partner',
+      shortDescription: 'A module that enables Ordering Journey for Sell-With and Sell-Through Partners.',
       image: 'path/to/image.jpg',
       link: 'https://github.com/your-repo',
       features: [
-        'Led a team of 6 developers in aggressive production release timelines.',
-        'Leveraged GenAI tools to accelerate sprint velocity by 25%.'
-      ]
+        'Delivered the module in tight timelines leading to a 8% increase in revenue of GSC product.'
+      ],
+      timeLine:"Nov'24-Dec'24"
+    },
+    {
+      title: 'GLOBALRAPIDE',
+      shortDescription: 'A module that allows bundling of GlobalRapide products and Addons, like Endpoints, SBC, Licenses and Services.',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Achieved 60% reduction in API response times and optimized Queue calls for improved performance.'
+      ],
+      timeLine:"Jul'23-Nov'24"
+    },
+    {
+      title: 'JAMVEE',
+      shortDescription: 'A module for the Order Placement, Management, and Delivery of JAMVEE products.',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Developed Plan MACD feature from Scratch leading to 6% increase in sales.'
+      ],
+      timeLine:"Jul'21-Jul'23"
+    },
+    {
+      title: 'Webex Calling',
+      shortDescription: 'A module for Order Management of Webex Calling solution.',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Incorporated Order Management of Voice Services, Licenses, and Equipment.',
+        'Integrated Inventory Management for existing orders, leading to 4% increase in orders.'
+      ],
+      timeLine:"Jul'21-Jul'23"
+    },
+    {
+      title: 'TeamsDR',
+      shortDescription: 'A Module for the L2C journey for TeamsDR Solution',
+      image: 'path/to/image.jpg',
+      link: 'https://github.com/your-repo',
+      features: [
+        'Implemented Bundled Voice solutions using Drools, RestClient.',
+        'Utilized Flowable an XML-based bpmn tool for predefining O2C flows.'
+      ],
+      timeLine:"Jul'21-Jul'23"
     }
   ];
   

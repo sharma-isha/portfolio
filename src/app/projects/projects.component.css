@@ -84,3 +84,8 @@
     line-height: 1.2; /* Optional: Adjust line height for readability */
     color: #6c757d; /* Optional: Subtle gray for less emphasis */
 }
+
+  .card-timeLine {
+    font-size: 0.8rem; /* Larger title font */
+  }
+  

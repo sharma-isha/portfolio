@@ -16,11 +16,12 @@ export class ExperienceComponent {
       role: 'Tech Lead',
       duration: "Mar'25 - Present",
       responsibilities: [
-        'Led a newly formed backend team post-transition, aligning quickly on goals and architecture to drive delivery of a high-impact digital product.',
-        'Delivered a scalable, production-grade solution under aggressive timelines.',
-        'Accelerated sprint velocity by 25% by integrating GenAI solutions into development workflows, optimizing code generation, testing, and documentation.'
+        'Spearheaded backend development across 7+ Agile teams (10+ members), driving the end-to-end architecture, design, and delivery of IzoMCC.',
+        'Delivered critical features under aggressive timelines, ensuring seamless API integration and 0 major defects in production deployments.',
+        'Applied GenAI-powered tools with CI/CD automation, boosting sprint velocity by 25% and significantly improving developer throughput.',
+        'Built a robust Flowable-based framework enabling auto re-triggers, reducing feature rollout time by 20% and enhancing production stability.'
       ],
-      technologies: ['Java','SpringBoot', 'Spring Security', 'Keycloak', 'Thymeleaf', 'Spring JPA', 'RabbitMQ', 'Redis','Jenkins','Co-Pilot']
+      technologies: ['Java','SpringBoot', 'Spring Security', 'Keycloak', 'Thymeleaf', 'Spring JPA', 'RabbitMQ', 'Redis','Jenkins','Co-Pilot','Swagger']
     },
     {
       company: 'Tata Communications',
